@@ -216,7 +216,7 @@ cleanup() {
 main() {
   echo -e "\033[1;4mOS X Install ISO Creater\033[0m"
   cat << EOT
-Support OS X Version: 10.6, 10.7, 10.8, 10.9, 10.10, 10.11, 10.12, 10.13, and 10.14 beta
+Support OS X Version: 10.6, 10.7, 10.8, 10.9, 10.10, 10.11, 10.12, 10.13, and 10.14 
 You need to download (Mac) OS X Installer from the Mac App Store and save it to the Application folder - its default location.
 Or, you can create iso from InstallESD.dmg you specified.
 EOT
@@ -236,7 +236,7 @@ EOT
                         "OS X El Capitan" \
                         "macOS Sierra" \
 			"macOS High Sierra" \
-                        "macOS 10.14 Beta")
+                        "macOS Mojave")
   declare -r DMG_PATH_HEAD="/Applications/Install "
   declare -r DMG_PATH_TAIL=".app/Contents/SharedSupport/InstallESD.dmg"
   local -i i=0
